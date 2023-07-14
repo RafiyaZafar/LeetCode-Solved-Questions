@@ -8,9 +8,9 @@ class Solution:
         for ele in arr:
             if ele < 0:
                 l.append(ele)
-        for ele in arr:
-            if ele > 0:
+            else:
                 m.append(ele)
+        
         p = m + l
         arr[:] = p
             
