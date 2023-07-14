@@ -11,8 +11,8 @@ class Solution:
             else:
                 m.append(ele)
         
-        p = m + l
-        arr[:] = p
+        
+        arr[:] = m + l
             
 
 
