@@ -1,5 +1,5 @@
 #User function Template for python3
-from operator import itemgetter
+
 class Solution:
     
     #Function to find the maximum number of meetings that can
@@ -9,6 +9,7 @@ class Solution:
         meetings = []
         for i in range(n):
             meetings.append((start[i], end[i], i + 1))
+        
         
         # Sort the meetings based on ending times
         meetings.sort(key=lambda x: x[1])
